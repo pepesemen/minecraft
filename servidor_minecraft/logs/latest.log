@@ -1,80 +1,80 @@
-[01Sep2025 22:31:00.612] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[01Sep2025 22:31:00.617] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[01Sep2025 22:31:03.178] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Sep2025 22:31:03.306] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[01Sep2025 22:31:03.898] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[01Sep2025 22:31:03.902] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Sep2025 22:31:03.905] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Sep2025 22:31:03.909] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Sep2025 22:31:04.349] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[01Sep2025 22:31:07.935] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Sep2025 22:31:08.106] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[01Sep2025 22:31:10.238] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[01Sep2025 22:31:23.457] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[02Sep2025 00:16:59.178] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Sep2025 00:16:59.188] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[02Sep2025 00:16:59.827] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Sep2025 00:16:59.919] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Sep2025 00:17:00.377] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2025 00:17:00.380] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2025 00:17:00.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2025 00:17:00.385] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2025 00:17:00.605] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[02Sep2025 00:17:03.800] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Sep2025 00:17:03.866] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Sep2025 00:17:05.500] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02Sep2025 00:17:19.018] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[01Sep2025 22:31:25.256] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[01Sep2025 22:31:25.272] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[01Sep2025 22:31:25.306] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[01Sep2025 22:31:25.306] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[01Sep2025 22:31:30.383] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Spitter from class com.Harbinger.Spore.Sentities.EvolvedInfected.Howler
-[01Sep2025 22:31:30.385] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.EvolvedInfected.Scamper
-[01Sep2025 22:31:30.386] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.Organoids.Vigil
-[01Sep2025 22:31:30.388] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.Organoids.Brauerei
-[01Sep2025 22:31:30.395] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
-[01Sep2025 22:31:30.439] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[01Sep2025 22:31:30.455] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[01Sep2025 22:31:32.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Sep2025 22:31:32.906] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[01Sep2025 22:31:32.906] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[01Sep2025 22:31:32.907] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[01Sep2025 22:31:32.907] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[01Sep2025 22:31:32.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[01Sep2025 22:31:33.125] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[01Sep2025 22:31:33.172] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[01Sep2025 22:31:33.182] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[01Sep2025 22:31:36.651] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Sep2025 22:31:39.318] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23125!/assets/.mcassetsroot' uses unexpected schema
-[01Sep2025 22:31:39.319] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23125!/data/.mcassetsroot' uses unexpected schema
-[01Sep2025 22:31:40.285] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[01Sep2025 22:31:41.472] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[01Sep2025 22:31:43.167] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
-[01Sep2025 22:31:43.170] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
-[01Sep2025 22:31:43.172] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
-[01Sep2025 22:31:43.176] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
-[01Sep2025 22:31:43.180] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
-[01Sep2025 22:31:43.181] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
-[01Sep2025 22:31:43.183] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
-[01Sep2025 22:31:43.187] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
-[01Sep2025 22:31:43.188] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
-[01Sep2025 22:31:43.190] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
-[01Sep2025 22:31:43.191] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
-[01Sep2025 22:31:43.194] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
-[01Sep2025 22:31:43.196] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
-[01Sep2025 22:31:43.197] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
-[01Sep2025 22:31:43.198] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
-[01Sep2025 22:31:43.206] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
-[01Sep2025 22:31:43.208] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
-[01Sep2025 22:31:43.211] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
-[01Sep2025 22:31:43.213] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
-[01Sep2025 22:31:43.215] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
-[01Sep2025 22:31:43.217] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:minigun'
-[01Sep2025 22:31:43.220] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
-[01Sep2025 22:31:43.222] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
-[01Sep2025 22:31:43.224] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
-[01Sep2025 22:31:43.226] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:revolver'
-[01Sep2025 22:31:43.228] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
-[01Sep2025 22:31:43.230] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
-[01Sep2025 22:31:43.232] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
-[01Sep2025 22:31:43.235] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
-[01Sep2025 22:31:43.235] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
-[01Sep2025 22:31:43.236] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
-[01Sep2025 22:31:43.239] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
-[01Sep2025 22:31:43.240] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
-[01Sep2025 22:31:43.243] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
-[01Sep2025 22:31:43.248] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
-[01Sep2025 22:31:43.250] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
-[01Sep2025 22:31:43.250] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
-[01Sep2025 22:31:43.436] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/amethyst_dust
+[02Sep2025 00:17:20.755] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[02Sep2025 00:17:20.776] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[02Sep2025 00:17:20.811] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[02Sep2025 00:17:20.812] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[02Sep2025 00:17:25.996] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Spitter from class com.Harbinger.Spore.Sentities.EvolvedInfected.Howler
+[02Sep2025 00:17:26.000] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.EvolvedInfected.Scamper
+[02Sep2025 00:17:26.003] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.Organoids.Vigil
+[02Sep2025 00:17:26.007] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.Organoids.Brauerei
+[02Sep2025 00:17:26.012] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
+[02Sep2025 00:17:26.043] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[02Sep2025 00:17:26.059] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[02Sep2025 00:17:27.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Sep2025 00:17:27.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[02Sep2025 00:17:27.954] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[02Sep2025 00:17:27.955] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[02Sep2025 00:17:27.955] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[02Sep2025 00:17:27.956] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[02Sep2025 00:17:28.155] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[02Sep2025 00:17:28.210] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[02Sep2025 00:17:28.222] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[02Sep2025 00:17:32.113] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Sep2025 00:17:33.986] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[02Sep2025 00:17:33.989] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[02Sep2025 00:17:34.748] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[02Sep2025 00:17:36.250] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[02Sep2025 00:17:37.924] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[02Sep2025 00:17:37.927] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[02Sep2025 00:17:37.931] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[02Sep2025 00:17:37.937] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[02Sep2025 00:17:37.942] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[02Sep2025 00:17:37.947] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[02Sep2025 00:17:37.951] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[02Sep2025 00:17:37.955] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[02Sep2025 00:17:37.957] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[02Sep2025 00:17:37.962] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[02Sep2025 00:17:37.964] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[02Sep2025 00:17:37.965] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[02Sep2025 00:17:37.967] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[02Sep2025 00:17:37.969] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[02Sep2025 00:17:37.972] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[02Sep2025 00:17:37.977] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[02Sep2025 00:17:37.979] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[02Sep2025 00:17:37.981] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[02Sep2025 00:17:37.982] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[02Sep2025 00:17:37.985] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[02Sep2025 00:17:37.986] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[02Sep2025 00:17:37.988] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[02Sep2025 00:17:37.990] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[02Sep2025 00:17:37.993] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[02Sep2025 00:17:37.995] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[02Sep2025 00:17:37.996] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[02Sep2025 00:17:38.001] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[02Sep2025 00:17:38.004] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[02Sep2025 00:17:38.008] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[02Sep2025 00:17:38.009] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[02Sep2025 00:17:38.011] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[02Sep2025 00:17:38.012] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[02Sep2025 00:17:38.014] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[02Sep2025 00:17:38.015] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[02Sep2025 00:17:38.019] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[02Sep2025 00:17:38.020] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[02Sep2025 00:17:38.020] [Worker-Main-1/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[02Sep2025 00:17:38.133] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/amethyst_dust
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23125!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -103,7 +103,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[01Sep2025 22:31:43.479] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/amethyst_dust
+[02Sep2025 00:17:38.166] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/amethyst_dust
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23125!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -132,7 +132,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[01Sep2025 22:31:43.499] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:organic_compost_from_body_parts
+[02Sep2025 00:17:38.191] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:organic_compost_from_body_parts
 com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23125!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -170,7 +170,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[01Sep2025 22:31:43.539] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compound_plate
+[02Sep2025 00:17:38.221] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compound_plate
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23125!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -199,7 +199,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[01Sep2025 22:31:43.545] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:mixing/compound
+[02Sep2025 00:17:38.224] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:mixing/compound
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23125!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -228,61 +228,56 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[01Sep2025 22:31:43.572] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
-[01Sep2025 22:31:43.812] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1660 advancements
-[01Sep2025 22:31:45.274] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Sep2025 22:31:45.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Sep2025 22:31:45.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Sep2025 22:31:45.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Sep2025 22:31:45.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Sep2025 22:31:45.671] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Sep2025 22:31:45.799] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Sep2025 22:31:45.800] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Sep2025 22:31:45.800] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Sep2025 22:31:45.801] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Sep2025 22:31:45.993] [Server thread/INFO] [Framework/]: Loading server configs...
-[01Sep2025 22:31:46.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Sep2025 22:31:55.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Sep2025 22:31:58.617] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:31:58.620] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:31:58.624] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:31:58.630] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:31:58.636] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:31:58.918] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:31:58.963] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:00.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:00.307] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:00.413] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:00.904] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:01.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:02.290] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:02.291] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:02.766] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:03.253] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:03.751] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:04.267] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Sep2025 22:32:04.749] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[01Sep2025 22:32:05.250] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[01Sep2025 22:32:05.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[01Sep2025 22:32:06.484] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10739 ms
-[01Sep2025 22:32:06.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.662s)! For help, type "help"
-[01Sep2025 22:32:06.697] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Sep2025 22:35:20.421] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mainyorick[/127.107.186.213:33713] logged in with entity id 93 at (-2507.7961565075143, 115.0, 2767.814347182534)
-[01Sep2025 22:35:20.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick joined the game
-[01Sep2025 22:35:20.562] [Server thread/INFO] [Jade/]: Syncing config to mainyorick (d3e0655a-278c-3bed-9fdf-7faa1773f611)
-[01Sep2025 22:35:25.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4757ms or 95 ticks behind
-[01Sep2025 22:35:43.391] [Worker-Main-1/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
-[01Sep2025 22:37:15.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Sep2025 22:37:15.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Sep2025 22:37:15.934] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mainyorick lost connection: Server closed
-[01Sep2025 22:37:15.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick left the game
-[01Sep2025 22:37:15.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Sep2025 22:37:16.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01Sep2025 22:37:20.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01Sep2025 22:37:20.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01Sep2025 22:37:20.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Sep2025 22:37:20.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Sep2025 22:37:20.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Sep2025 22:37:20.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Sep2025 22:37:20.683] [Server thread/INFO] [Framework/]: Unloading server configs...
-[01Sep2025 22:37:20.684] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[02Sep2025 00:17:38.241] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
+[02Sep2025 00:17:38.488] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1660 advancements
+[02Sep2025 00:17:40.042] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Sep2025 00:17:40.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Sep2025 00:17:40.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Sep2025 00:17:40.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Sep2025 00:17:40.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Sep2025 00:17:40.374] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Sep2025 00:17:40.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Sep2025 00:17:40.507] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Sep2025 00:17:40.507] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Sep2025 00:17:40.508] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Sep2025 00:17:40.865] [Server thread/INFO] [Framework/]: Loading server configs...
+[02Sep2025 00:17:40.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Sep2025 00:17:50.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Sep2025 00:17:55.079] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.148] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.152] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.238] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.292] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.307] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.324] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.348] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.397] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:55.629] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:56.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:56.620] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:57.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:57.964] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:58.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:58.611] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:59.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:17:59.646] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2025 00:18:00.291] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10181 ms
+[02Sep2025 00:18:00.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.739s)! For help, type "help"
+[02Sep2025 00:18:00.414] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Sep2025 00:19:23.391] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4db0cc33[id=<null>,name=mainyorick,properties={},legacy=false] (/127.107.186.213:59411) lost connection: Disconnected
+[02Sep2025 00:19:35.357] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mainyorick[/127.107.186.213:46903] logged in with entity id 87 at (-2516.3545586210903, 115.0, 2767.0262683533288)
+[02Sep2025 00:19:35.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick joined the game
+[02Sep2025 00:19:35.494] [Server thread/INFO] [Jade/]: Syncing config to mainyorick (d3e0655a-278c-3bed-9fdf-7faa1773f611)
+[02Sep2025 00:19:38.370] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3141ms or 62 ticks behind
+[02Sep2025 00:19:48.700] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['TokenOni420'/391, l='ServerLevel[world]', x=-2589.39, y=64.70, z=2773.96] died: TokenOni420 was blown up by Phantom Creeper
+[02Sep2025 00:19:48.704] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InfectedPlayer['ABucketOfFriedChicken'/390, l='ServerLevel[world]', x=-2590.68, y=64.00, z=2774.09] died: ABucketOfFriedChicken was blown up by Phantom Creeper
+[02Sep2025 00:19:56.402] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3072ms or 61 ticks behind
+[02Sep2025 00:24:15.491] [Worker-Main-1/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[02Sep2025 00:27:37.542] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mainyorick lost connection: Disconnected
+[02Sep2025 00:27:37.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick left the game
+[02Sep2025 00:29:20.061] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mainyorick[/127.107.186.213:45233] logged in with entity id 3533 at (-2578.003084816731, 64.0, 2771.0945074678007)
+[02Sep2025 00:29:20.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick joined the game
+[02Sep2025 00:29:20.095] [Server thread/INFO] [Jade/]: Syncing config to mainyorick (d3e0655a-278c-3bed-9fdf-7faa1773f611)
+[02Sep2025 00:29:22.250] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2121ms or 42 ticks behind
