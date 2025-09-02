@@ -709,6 +709,8 @@
       "minecraft:skeleton": "2025-09-01 00:41:54 +0000",
       "minecraft:spider": "2025-08-31 23:47:18 +0000",
       "minecraft:creeper": "2025-09-01 00:37:32 +0000",
+      "minecraft:slime": "2025-09-02 00:54:17 +0000",
+      "minecraft:witch": "2025-09-02 00:50:32 +0000",
       "minecraft:husk": "2025-09-01 00:58:50 +0000",
       "minecraft:zombie": "2025-08-31 23:47:17 +0000",
       "minecraft:zombie_villager": "2025-09-01 03:53:46 +0000"
@@ -2449,9 +2451,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-02 00:55:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-09-02 01:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-09-02 01:06:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-09-02 00:32:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-09-02 00:55:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-02 00:55:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-09-02 00:55:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-09-02 00:54:19 +0000"
+    },
+    "done": true
+  },
+  "spore:bloater": {
+    "criteria": {
+      "hurt_infected": "2025-09-02 01:03:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-09-02 00:54:19 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:exorcism": {
+    "criteria": {
+      "exorcism_0": "2025-09-02 00:53:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-09-02 00:54:19 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:the_wind_darkening": {
+    "criteria": {
+      "the_wind_darkening_0": "2025-09-02 00:54:55 +0000"
     },
     "done": true
   },
