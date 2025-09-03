@@ -19,10 +19,12 @@
       "minecraft:sparse_jungle": "2025-09-01 03:08:35 +0000",
       "minecraft:river": "2025-08-31 23:37:10 +0000",
       "minecraft:lukewarm_ocean": "2025-09-01 02:58:49 +0000",
+      "minecraft:stony_shore": "2025-09-02 04:25:45 +0000",
       "minecraft:forest": "2025-09-01 03:49:47 +0000",
       "minecraft:lush_caves": "2025-08-31 23:55:30 +0000",
       "minecraft:desert": "2025-08-31 23:34:13 +0000",
       "minecraft:ocean": "2025-09-01 04:20:24 +0000",
+      "minecraft:jungle": "2025-09-02 04:24:55 +0000",
       "minecraft:warm_ocean": "2025-09-01 02:36:36 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-09-01 02:59:03 +0000",
       "minecraft:savanna": "2025-09-01 03:49:00 +0000",
@@ -1932,28 +1934,9 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:charm_collector": {
-    "criteria": {
-      "charm_collector_1": "2025-09-01 03:55:07 +0000",
-      "charm_collector_0": "2025-09-01 03:55:10 +0000"
-    },
-    "done": false
-  },
-  "alexscaves:alexscaves/nuclear_bomb": {
-    "criteria": {
-      "nuclear_bomb": "2025-09-01 04:17:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2025-09-01 03:50:10 +0000"
-    },
-    "done": true
-  },
-  "spore:spitter": {
-    "criteria": {
-      "hurt_by_infected": "2025-09-01 03:58:13 +0000"
     },
     "done": true
   },
@@ -1969,11 +1952,156 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:charm_collector": {
+    "criteria": {
+      "charm_collector_1": "2025-09-01 03:55:07 +0000",
+      "charm_collector_0": "2025-09-01 03:55:10 +0000"
+    },
+    "done": false
+  },
+  "spore:spitter": {
+    "criteria": {
+      "hurt_by_infected": "2025-09-01 03:58:13 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2025-09-01 04:17:01 +0000"
+    },
+    "done": true
+  },
   "spore:brotkatze": {
     "criteria": {
       "hurt_infected": "2025-09-01 04:23:02 +0000"
     },
     "done": true
+  },
+  "spore:hohlfresser": {
+    "criteria": {
+      "hurt_infected": "2025-09-02 03:07:02 +0000"
+    },
+    "done": true
+  },
+  "spore:thorn": {
+    "criteria": {
+      "hurt_infected": "2025-09-02 03:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-09-02 04:03:36 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-09-02 04:04:14 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-09-02 04:04:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-09-02 04:26:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-09-02 04:18:14 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "illager_camp": "2025-09-02 04:23:38 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-09-02 04:18:14 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-09-02 04:11:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-09-02 04:16:20 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:trickor_treat": {
+    "criteria": {
+      "trickor_treat_0": "2025-09-02 04:18:08 +0000",
+      "trickor_treat_2": "2025-09-02 04:18:16 +0000",
+      "trickor_treat_3": "2025-09-02 04:18:16 +0000",
+      "trickor_treat_4": "2025-09-02 04:18:16 +0000",
+      "trickor_treat_5": "2025-09-02 04:18:16 +0000",
+      "trickor_treat_6": "2025-09-02 04:18:16 +0000",
+      "trickor_treat_7": "2025-09-02 04:18:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-09-02 04:16:20 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-09-02 04:24:21 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/stomp_leafcutter_anthill": {
+    "criteria": {
+      "ex": "2025-09-02 04:22:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-09-02 04:18:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-09-02 04:16:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-09-02 04:18:45 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:pumpkin_sir": {
+    "criteria": {
+      "pumpkin_sir_0": "2025-09-02 04:18:07 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:squireofthe_dark_lord": {
+    "criteria": {
+      "squireofthe_dark_lord_6": "2025-09-02 04:18:07 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
