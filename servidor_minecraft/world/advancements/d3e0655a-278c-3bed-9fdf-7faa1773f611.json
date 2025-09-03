@@ -3317,9 +3317,39 @@
     },
     "done": false
   },
+  "spore:howler": {
+    "criteria": {
+      "hurt_infected": "2025-09-03 17:56:28 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:fighting_nightmares": {
     "criteria": {
       "fighting_nightmares_0": "2025-09-03 17:44:40 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_the_recipe": "2025-09-03 18:05:48 +0000"
+    },
+    "done": true
+  },
+  "spore:jagd": {
+    "criteria": {
+      "hurt_infected": "2025-09-03 18:01:44 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:hatman": {
+    "criteria": {
+      "hatman_0": "2025-09-03 17:49:20 +0000"
+    },
+    "done": false
+  },
+  "born_in_chaos_v1:dark_forging": {
+    "criteria": {
+      "dark_forging_0": "2025-09-03 18:11:18 +0000"
     },
     "done": true
   },

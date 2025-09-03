@@ -1555,3 +1555,46 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 [03Sep2025 17:46:55.338] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Pointed Dripstone'/2060, l='ServerLevel[world]', x=-2736.50, y=-10.00, z=1283.50]
 [03Sep2025 17:46:55.340] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Pointed Dripstone'/2061, l='ServerLevel[world]', x=-2739.50, y=-11.00, z=1285.50]
 [03Sep2025 17:46:55.343] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Pointed Dripstone'/2062, l='ServerLevel[world]', x=-2739.50, y=-12.00, z=1286.50]
+[03Sep2025 17:51:02.305] [Server thread/DEBUG] [citadel/]: saving unmodified surface rules as type SequenceRuleSource
+[03Sep2025 17:51:02.311] [Server thread/DEBUG] [citadel/]: modified surface rules to type CitadelSurfaceRuleWrapper
+[03Sep2025 17:51:02.311] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Sep2025 17:51:02.328] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Sep2025 17:54:07.260] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Pointed Dripstone'/4753, l='ServerLevel[world]', x=-2613.50, y=5.00, z=1303.50]
+[03Sep2025 17:56:02.292] [Server thread/DEBUG] [citadel/]: saving unmodified surface rules as type SequenceRuleSource
+[03Sep2025 17:56:02.292] [Server thread/DEBUG] [citadel/]: modified surface rules to type CitadelSurfaceRuleWrapper
+[03Sep2025 17:56:02.292] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Sep2025 17:56:02.304] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Sep2025 17:58:46.713] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Pointed Dripstone'/6519, l='ServerLevel[world]', x=-2704.50, y=-11.00, z=1398.50]
+[03Sep2025 18:01:02.293] [Server thread/DEBUG] [citadel/]: saving unmodified surface rules as type SequenceRuleSource
+[03Sep2025 18:01:02.294] [Server thread/DEBUG] [citadel/]: modified surface rules to type CitadelSurfaceRuleWrapper
+[03Sep2025 18:01:02.294] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Sep2025 18:01:02.306] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Sep2025 18:03:39.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick was doomed to fall by Phayres
+[03Sep2025 18:06:02.357] [Server thread/DEBUG] [citadel/]: saving unmodified surface rules as type SequenceRuleSource
+[03Sep2025 18:06:02.358] [Server thread/DEBUG] [citadel/]: modified surface rules to type CitadelSurfaceRuleWrapper
+[03Sep2025 18:06:02.358] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Sep2025 18:06:02.386] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Sep2025 18:09:47.589] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7854, l='ServerLevel[world]', x=-2851.26, y=89.92, z=1707.40] died, message: 'Unemployed was slain by Zombie'
+[03Sep2025 18:10:05.287] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7852, l='ServerLevel[world]', x=-2832.70, y=85.00, z=1706.30] died, message: 'Unemployed was slain by Zombie'
+[03Sep2025 18:11:02.334] [Server thread/DEBUG] [citadel/]: saving unmodified surface rules as type SequenceRuleSource
+[03Sep2025 18:11:02.337] [Server thread/DEBUG] [citadel/]: modified surface rules to type CitadelSurfaceRuleWrapper
+[03Sep2025 18:11:02.338] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Sep2025 18:11:02.354] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Sep2025 18:11:18.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mainyorick has made the advancement [Dark Forging]
+[03Sep2025 18:11:21.304] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7851, l='ServerLevel[world]', x=-2874.90, y=86.75, z=1674.70] died, message: 'Unemployed was slain by Zombie'
+[03Sep2025 18:12:02.245] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[03Sep2025 18:12:16.754] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7853, l='ServerLevel[world]', x=-2834.35, y=86.00, z=1706.35] died, message: 'Unemployed was slain by Zombie'
+[03Sep2025 18:12:19.317] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7825, l='ServerLevel[world]', x=-2891.06, y=85.00, z=1672.39] died, message: 'Unemployed was slain by Zombie'
+[03Sep2025 18:12:19.815] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2570ms or 51 ticks behind
+[03Sep2025 18:12:55.248] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[03Sep2025 18:13:12.806] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2561ms or 51 ticks behind
+[03Sep2025 18:13:40.753] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[03Sep2025 18:16:14.587] [Server thread/DEBUG] [citadel/]: saving unmodified surface rules as type SequenceRuleSource
+[03Sep2025 18:16:14.587] [Server thread/DEBUG] [citadel/]: modified surface rules to type CitadelSurfaceRuleWrapper
+[03Sep2025 18:16:14.587] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Sep2025 18:16:14.598] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Sep2025 18:16:17.224] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[03Sep2025 18:16:37.460] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5265ms or 105 ticks behind
+[03Sep2025 18:18:28.447] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[03Sep2025 18:18:46.418] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2973ms or 59 ticks behind
+[03Sep2025 18:19:15.749] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
