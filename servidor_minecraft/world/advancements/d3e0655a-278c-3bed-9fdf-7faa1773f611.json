@@ -138,6 +138,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2025-09-03 21:06:31 +0000",
       "baked_potato": "2025-09-01 01:15:29 +0000",
       "porkchop": "2025-09-01 00:51:08 +0000",
       "apple": "2025-09-01 03:57:33 +0000",
@@ -145,7 +146,9 @@
       "golden_apple": "2025-09-01 00:13:33 +0000",
       "rotten_flesh": "2025-08-31 23:41:30 +0000",
       "beetroot": "2025-09-01 03:57:42 +0000",
-      "cooked_chicken": "2025-09-01 04:07:40 +0000"
+      "golden_carrot": "2025-09-03 19:33:00 +0000",
+      "cooked_chicken": "2025-09-01 04:07:40 +0000",
+      "carrot": "2025-09-03 18:18:07 +0000"
     },
     "done": false
   },
@@ -711,6 +714,7 @@
     "criteria": {
       "minecraft:pillager": "2025-09-01 02:54:27 +0000",
       "minecraft:skeleton": "2025-09-01 00:41:54 +0000",
+      "minecraft:vindicator": "2025-09-03 19:38:35 +0000",
       "minecraft:spider": "2025-08-31 23:47:18 +0000",
       "minecraft:creeper": "2025-09-01 00:37:32 +0000",
       "minecraft:slime": "2025-09-02 00:54:17 +0000",
@@ -3311,9 +3315,27 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:fighting_nightmares": {
+    "criteria": {
+      "fighting_nightmares_0": "2025-09-03 17:44:40 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2025-09-03 17:45:35 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:charm_collector": {
     "criteria": {
       "charm_collector_0": "2025-09-03 17:45:55 +0000"
+    },
+    "done": false
+  },
+  "born_in_chaos_v1:hatman": {
+    "criteria": {
+      "hatman_0": "2025-09-03 17:49:20 +0000"
     },
     "done": false
   },
@@ -3323,9 +3345,9 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:fighting_nightmares": {
+  "spore:jagd": {
     "criteria": {
-      "fighting_nightmares_0": "2025-09-03 17:44:40 +0000"
+      "hurt_infected": "2025-09-03 18:01:44 +0000"
     },
     "done": true
   },
@@ -3335,27 +3357,123 @@
     },
     "done": true
   },
-  "spore:jagd": {
-    "criteria": {
-      "hurt_infected": "2025-09-03 18:01:44 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:hatman": {
-    "criteria": {
-      "hatman_0": "2025-09-03 17:49:20 +0000"
-    },
-    "done": false
-  },
   "born_in_chaos_v1:dark_forging": {
     "criteria": {
       "dark_forging_0": "2025-09-03 18:11:18 +0000"
     },
     "done": true
   },
-  "born_in_chaos_v1:dark_creator": {
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
-      "dark_creator_0": "2025-09-03 17:45:35 +0000"
+      "has_white_terracotta": "2025-09-03 19:23:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-09-03 19:23:50 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2025-09-03 19:24:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-09-03 19:51:55 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-09-03 21:07:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-03 21:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-03 21:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-03 21:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-03 21:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-03 21:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-03 21:08:30 +0000"
     },
     "done": true
   },
